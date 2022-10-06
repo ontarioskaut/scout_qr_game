@@ -136,7 +136,7 @@ window.odpovedet = function (skupina, ukol) {
   var zadane = prompt("Zadej odpověď");
   if (zadane == odpoved) {
     alert("Správná odpověď, zobrazí se ti další místo.");
-    ukolbox.innerHTML = "<b>" + vysledek + "</b>";
+    ukolbox.innerHTML = "<br><b>" + vysledek + "</b>";
   } else {
     alert("špatná odpověď");
   }
