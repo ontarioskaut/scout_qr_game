@@ -1,0 +1,3 @@
+# scout_qr_game
+Blbost, co jsem narychlo napsal (čti: někde jsem našel kus kódu a přidal tam funkci pro dávání otázek) na skautskou schůzku zaměřenou na práci s informacemi.
+V praxi to stejně nefungovlo, někde je chyba, ale tu už stejně nemá cenu opravovat. Tento repozitář vznikl jen proto, abych mohl rychle vytvořit dočasný hosting, nyní jej ponechávám zájemcům, kdyby někdy někdo dělal něco podobného.
