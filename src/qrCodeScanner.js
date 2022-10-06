@@ -51,7 +51,7 @@ qrcode1.callback = (res) => {
       if (splittet[1] == skupina) {
         var ukol = splittet[2];
         outputData.innerText =
-          "číslo skupiny: <b>" + parseInt(skupina + 1) + "</b>, číslo úkolu: <b>" + parseInt(ukol + 1) + "</b>";
+          "číslo skupiny: <b>" + (parseInt(skupina) + 1) + "</b>, číslo úkolu: <b>" + (parseInt(ukol) +1) + "</b>";
         ukolbox.hidden = false;
         var otazkaobj = window.otazky[ukol];
         console.log("cccm" + otazkaobj);
