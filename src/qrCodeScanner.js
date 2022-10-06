@@ -61,7 +61,7 @@ qrcode1.callback = (res) => {
           otazkaobj.otazka +
           "</h3><br>" +
           otazkaobj.telo +
-          '<br><button style="width: 50px;" onclick="window.odpovedet(' +
+          '<br><button style="height: 50px;" onclick="window.odpovedet(' +
           skupina +
           ", " +
           ukol +
