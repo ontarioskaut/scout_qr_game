@@ -102,13 +102,13 @@ window.otazky = [
       otazka: "Otázka?",
       telo: 'otázka-body',
       odpoved: "1",
-      vysledek: "1"
+      vysledek: "Poslední přijaté údaje jsou: <b>1001000.00011010001100101N</b> (zdá se, že jsou zašifrované)"
     },
     {
       otazka: "Otázka?",
       telo: 'otázka-body',
       odpoved: "2",
-      vysledek: "2"
+      vysledek: "Poslední přijaté údaje jsou: <b>0010010.00100010101101001E</b> (zdá se, že jsou zašifrované)"
     }
   ],
 ];
