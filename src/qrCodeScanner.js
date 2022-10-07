@@ -108,7 +108,7 @@ window.otazky = [
       otazka: "Otázka?",
       telo: 'otázka-body',
       odpoved: "2",
-      vysledek: "Poslední přijaté údaje jsou: <b>0010010.00100010101101001E</b> (zdá se, že jsou zašifrované)"
+      vysledek: "Poslední přijaté údaje jsou: <pre>0010010.00100010101101001E</pre> (zdá se, že jsou zašifrované)"
     }
   ],
 ];
