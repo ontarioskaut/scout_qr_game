@@ -27,6 +27,90 @@ window.otazky = [
       vysledek: "sk2"
     }
   ],
+  [ // Otázka č. 2
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "1",
+      vysledek: "1"
+    },
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "2",
+      vysledek: "2"
+    }
+  ],
+  [ // Otázka č. 3
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "1",
+      vysledek: "1"
+    },
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "2",
+      vysledek: "2"
+    }
+  ],
+  [ // Otázka č. 4
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "1",
+      vysledek: "1"
+    },
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "2",
+      vysledek: "2"
+    }
+  ],
+  [ // Otázka č. 5
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "1",
+      vysledek: "1"
+    },
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "2",
+      vysledek: "2"
+    }
+  ],
+  [ // Otázka č. 6
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "1",
+      vysledek: "1"
+    },
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "2",
+      vysledek: "2"
+    }
+  ],
+  [ // Otázka č. 7
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "1",
+      vysledek: "1"
+    },
+    {
+      otazka: "Otázka?",
+      telo: 'otázka-body',
+      odpoved: "2",
+      vysledek: "2"
+    }
+  ],
 ];
 qrcode1.callback = (res) => {
   if (res) {
@@ -46,7 +130,7 @@ qrcode1.callback = (res) => {
     } else if (splittet[0] == "ukol") {
       //ukol skupina cislo
       outputData.innerText = "type: ukol";
-      console.log(splittet[1]);
+      //console.log(splittet[1]);
       var skupina = getCookie("skupina");
       console.log(skupina);
       if (splittet[1] == skupina) {
@@ -55,7 +139,7 @@ qrcode1.callback = (res) => {
           "číslo skupiny: " + (parseInt(skupina) + 1) + ", číslo úkolu: " + (parseInt(ukol) +1) + "";
         ukolbox.hidden = false;
         var otazkaobj = window.otazky[ukol][skupina];
-        console.log("cccm" + otazkaobj);
+        console.log(otazkaobj);
         ukolbox.innerHTML =
           "<h3>" +
           otazkaobj.otazka +
